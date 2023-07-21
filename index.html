@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Birthday Reminder</h1>
+        <form id="birthdayForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" required>
+            
+            <button type="submit">Add Birthday</button>
+        </form>
+
+        <div id="birthdayList"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
